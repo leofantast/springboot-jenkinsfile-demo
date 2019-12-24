@@ -18,4 +18,5 @@ node {
         JENKINS_NODE_COOKIE=DONTKILLME nohup java -jar ${jar_name} &
         """
     }
+    echo "Hello World!"
 }
